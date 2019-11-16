@@ -1,0 +1,7 @@
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "greeter",
+    commit = "98892873e7a819f709c0208726cc0da7d279b7ab",
+    remote = "https://github.com/emranbm/Sample-cc_library.git"
+)
